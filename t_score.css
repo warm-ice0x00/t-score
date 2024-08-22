@@ -1,0 +1,135 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+html {
+  line-height: 1.15;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  background: teal;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 1em;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.container {
+  height: 100%;
+  text-align: center;
+  width: 100%;
+}
+
+td {
+  padding: 0;
+}
+
+.window {
+  background: silver;
+  border-color: #fff #424242 #424242 #fff;
+  border-style: solid;
+  border-width: 2px;
+  color: #000;
+  margin: 0 auto;
+  text-align: left;
+  width: 80%;
+}
+
+.title {
+  background: navy;
+  background: -moz-linear-gradient(left, navy, #1084d0);
+  background: -o-linear-gradient(left, navy, #1084d0);
+  background: -webkit-gradient(linear, left top, right top, from(navy), to(#1084d0));
+  background: -webkit-linear-gradient(left, navy, #1084d0);
+  background: linear-gradient(90deg, navy, #1084d0);
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='navy', EndColorStr='#1084d0');
+  border: 1px solid silver;
+  border-right-width: 2px;
+  color: #fff;
+  overflow: hidden;
+  padding: .25em .75em;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  zoom: 1;
+}
+
+.body {
+  margin: 1.25em;
+}
+
+.label {
+  white-space: nowrap;
+  width: 1%;
+}
+
+label {
+  margin: 0 .25em 0 0;
+}
+
+button,
+input {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  color: inherit;
+  font-family: inherit;
+  font-size: 1em;
+  line-height: 1.15;
+  margin: .25em 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+input {
+  background: #fff;
+  border: 2px inset #d5d5d5;
+  padding: .125em .0625em;
+  width: 100%;
+}
+
+input:focus {
+  outline: 0;
+}
+
+button {
+  background: silver;
+  border-color: #f0f0f0 #424242 #424242 #f0f0f0;
+  border-style: outset;
+  border-width: 2px;
+  overflow: visible;
+  padding: 0 .5em .25em;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+button:focus {
+  outline: 1px dotted #000;
+  outline-offset: -.25em;
+}
+
+button:active {
+  background: #e0e0e0;
+  border-color: #000 #fff #fff #000;
+  border-style: inset;
+  border-width: 2px;
+  outline: 0;
+}
